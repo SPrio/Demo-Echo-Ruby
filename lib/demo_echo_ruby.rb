@@ -3,6 +3,9 @@
 require_relative "demo_echo_ruby/version"
 
 module DemoEchoRuby
-  class Error < StandardError; end
-  # Your code goes here...
+  class Gem
+    def echo(message)
+      puts message
+    end
+  end
 end
